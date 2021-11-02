@@ -61,7 +61,6 @@ def getCustomizedPreTrainedModel(model_name,final_node_count,feature_extract,pre
 
 def trainModel(model,train_dl,val_dl,criterion,optim,train_samples,batch_size=32,soft_max=False,epochs=5):
     start_time = time.time()
-    epochs = 10
     train_losses = []
     test_losses = []
     train_correct = []
