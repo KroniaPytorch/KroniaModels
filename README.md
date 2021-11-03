@@ -38,7 +38,7 @@ The following libraries and APIs were used for the development of our project :
 - [Numpy](https://numpy.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
-- [PlantNet API]() : We used this API to prefilter the image to make sure a valid image of fruit/leaf was being uploaded in the app
+- [PlantNet API](https://my.plantnet.org/usage) : We used this API to prefilter the image to make sure a valid image of fruit/leaf was being uploaded in the app
 
 ## Related Repos
 The list of related repositories that were used to develop Kronia can be found [here](https://github.com/KroniaPytorch)
