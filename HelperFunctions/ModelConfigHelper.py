@@ -59,7 +59,7 @@ def getCustomizedPreTrainedModel(model_name,final_node_count,feature_extract,pre
         print("Please enter a valid model")
         return
 
-def trainModel(model,train_dl,val_dl,criterion,optim,train_samples,batch_size=32,soft_max=False,epochs=5):
+def trainModel(model,train_dl,val_dl,criterion,optim,train_samples,batch_size=32,soft_max=False,epochs=5,squeeze_req=False):
     start_time = time.time()
     train_losses = []
     test_losses = []
@@ -74,8 +74,12 @@ def trainModel(model,train_dl,val_dl,criterion,optim,train_samples,batch_size=32
             b+=1
             # Apply the model
             y_pred = model(X_train)  # we don't flatten X-train here
+            
             if soft_max == True:
                 y_pred = F.log_softmax(y_pred,dim=1)
+
+            if squeeze_req == True:
+                y_pred = y_pred.squeeze()
             y_train = y_train.type(torch.LongTensor)
             loss = criterion(y_pred, y_train)
  
