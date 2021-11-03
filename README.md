@@ -2,6 +2,7 @@
 This repository contains all the Pytorch models and the related code used in the development of this project
 
 ## Motivation
+
 Our prime motivation for making this App was to provide an application that can be used by farmers and agricultural workers all around the globe. We wanted to make sure that our application provides a ton of really helpful features and also delivers it with a certain level of finesse.
 
 ## Repository Overview
@@ -21,6 +22,11 @@ This repository contains the following folders :
     - [soil type](https://github.com/KroniaPytorch/KroniaModels/tree/main/Soil/SoilType) : This folder contains necessary notebooks for training and testing the model that classify between different soil types
 - [WheatDisease](https://github.com/KroniaPytorch/KroniaModels/tree/main/WheatDisease) : This folder contains necessary notebooks for training and testing the model on wheat diseases
 - [YYMDisease](https://github.com/KroniaPytorch/KroniaModels/tree/main/YVMDisease) : This folder contains necessary notebooks for training and testing the model on okra leaves (LadyFinger) suffering from yellow vein mosaic disease
+
+## Client-Side Architecture
+
+![Blank diagram](https://user-images.githubusercontent.com/62841337/140185728-11ffb890-aac3-44eb-bf94-a23e1776409d.png)
+
 
 ## Tech Stack
 
