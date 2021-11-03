@@ -18,7 +18,7 @@ The following libraries for the development of our project :
 - [Matplotlib](https://matplotlib.org/)
 
 ## Related Repos
-The list of related repositories that were used to develop Kronia can be found here
+The list of related repositories that were used to develop Kronia can be found [here](https://github.com/KroniaPytorch)
 
 ## Setup and Install
 To properly set up this project on a local machine, please carefully go through the following steps
