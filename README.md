@@ -6,6 +6,22 @@ Our prime motivation for making this App was to provide an application that can 
 
 ## Repository Overview
 
+This repository contains the following folders :
+
+- [HelperFunctions](https://github.com/KroniaPytorch/KroniaModels/tree/main/HelperFunctions): This folder contains the helper functions that were used to develop the jupyter notebooks.We advise new users to not mess with these files and focus on running the model notebooks.  
+- [CornDisease](https://github.com/KroniaPytorch/KroniaModels/tree/main/CornDisease) : This folder contains necessary notebooks for training and testing the model on corn diseases
+- [CottonDisease](https://github.com/KroniaPytorch/KroniaModels/tree/main/CottonDisease) : This folder contains necessary notebooks for training and testing the model on cotton diseases
+- [Crop-Recommender](https://github.com/KroniaPytorch/KroniaModels/tree/main/Crop-Recommender) : This folder contains necessary notebooks for training and testing the crop recommendation model
+- [FertilizerRecommender](https://github.com/KroniaPytorch/KroniaModels/tree/main/FertilizerRecommender) : This folder contains necessary notebooks for training and testing the model on fertilizer recommendation model
+- [FruitsClassifier](https://github.com/KroniaPytorch/KroniaModels/tree/main/FruitsClassifier) : This folder contains necessary notebooks for training and testing the fruit classifier model
+- [LeavesDisease](https://github.com/KroniaPytorch/KroniaModels/tree/main/LeavesDisease) : This folder contains necessary notebooks for training and testing the model on several fruits and vegetable diseases
+- [RiceDisease](https://github.com/KroniaPytorch/KroniaModels/tree/main/RiceDisease) : This folder contains necessary notebooks for training and testing the model on rice diseases
+- Soil
+    - [SoilNet](https://github.com/KroniaPytorch/KroniaModels/tree/main/Soil/SoilNet) : This folder contains necessary notebooks for training and testing the model that can filter between soil and non soil images
+    - [soil type](https://github.com/KroniaPytorch/KroniaModels/tree/main/Soil/SoilType) : This folder contains necessary notebooks for training and testing the model that classify between different soil types
+- [WheatDisease](https://github.com/KroniaPytorch/KroniaModels/tree/main/WheatDisease) : This folder contains necessary notebooks for training and testing the model on wheat diseases
+- [YYMDisease](https://github.com/KroniaPytorch/KroniaModels/tree/main/YVMDisease) : This folder contains necessary notebooks for training and testing the model on okra leaves (LadyFinger) suffering from yellow vein mosaic disease
+
 ## Tech Stack
 
 The following libraries for the development of our project :
