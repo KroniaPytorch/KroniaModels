@@ -74,7 +74,9 @@ To properly set up this project on a local machine, please carefully go through 
 ### Clone this repository
 
 - Move into the desired location on your local setup and make sure that you are using the correct virtual environment.
-- In the appropriate terminal, run ``` git clone https://github.com/KroniaPytorch/KroniaModels.git``` to get the codebase### Inference
+- In the appropriate terminal, run ``` git clone https://github.com/KroniaPytorch/KroniaModels.git``` to get the codebase
+
+### Inference
 
 - Once the dependencies have been installed and the code-base cloned, the user can now train the model or test it on custom images
 - Please keep in mind the folder hierarchy and move it into the appropriate folder
