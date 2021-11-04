@@ -79,7 +79,7 @@ To properly set up this project on a local machine, please carefully go through 
 ### Inference
 
 - Once the dependencies have been installed and the code-base cloned, the user can now train the model or test it on custom images
-- Please keep in mind the folder hierarchy and move it into the appropriate folder
+- Please keep in mind the folder hierarchy and move into the appropriate folder
 - To train the model again (with your tweaked settings), run the notebook with the name that matches the folder
 - To test the model, make sure you have downloaded the weights(read next step) or have generated a new weight file by training the model and then run Inference notebook in the folder
 - Weights for the particular model can be downloaded from [here](https://drive.google.com/drive/folders/1UXVMipuO_Dvskdv2g_4cMqoLIKRzi1HZ?usp=sharing)
