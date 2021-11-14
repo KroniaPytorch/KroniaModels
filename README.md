@@ -86,6 +86,6 @@ To properly set up this project on a local machine, please carefully go through 
 - Please note: Before Running the model, make sure you are running the notebook from the appropriate environment
 ### Quick Setup
 
-- If for some reason the user finds some trouble in installing the code, we also provide "Quick-Use" files that can be used by the user to test the models on cus
+- If for some reason the user finds some trouble in installing the code, we also provide "Quick-Use" files that can be used by the user to test the models on custom images
 - The user can find the files [here](https://drive.google.com/drive/folders/1UXVMipuO_Dvskdv2g_4cMqoLIKRzi1HZ?usp=sharing)
 - The user will find an Inference ("Quick Use") file that can be executed in Google Colab along with the appropriate weight files(available in the link mentioned above)
